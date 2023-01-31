@@ -68,6 +68,8 @@ main #batman img{
 
 }
 
-button {
+button:hover {
     cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.253),0 30px 55px 0 rgba(226, 3, 3, 0.418);
 }
+
