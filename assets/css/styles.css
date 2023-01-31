@@ -23,7 +23,7 @@ p {
     text-align: center;
 }
 
-main .villans {
+main .villains {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -68,8 +68,8 @@ main #batman img{
 
 }
 
-button:hover {
+button:hover, :focus {
     cursor: pointer;
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.253),0 30px 55px 0 rgba(226, 3, 3, 0.418);
+    animation: pulse 1s;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.253),0 20px 50px 0 rgba(226, 3, 3, 0.418);
 }
-
