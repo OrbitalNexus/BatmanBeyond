@@ -19,7 +19,7 @@ header .banner img {
 
 p {
     margin-top: 10px;
-    font-size: 24px;
+    font-size: 14px;
     text-align: center;
 }
 
@@ -35,7 +35,7 @@ main .villains {
 
 #joker{
     text-align: center;
-    font-size: 14px
+    font-size: 13px
 }
 
 #joker img {
@@ -45,7 +45,7 @@ main .villains {
 
 #riddler{
     text-align: center;
-    font-size: 14px;
+    font-size: 13px;
 }
 main #riddler img {
     width: 100%;
@@ -55,7 +55,7 @@ main #riddler img {
 #choose {
     align-self: center;
     margin: 10px;
-    font-size: 16px;
+    font-size: 13px;
 }
 
 

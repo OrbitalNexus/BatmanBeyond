@@ -1,52 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/styles.css">
-    <title>Batman Beyond</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assets/css/styles.css">
+        <title>Batman Beyond</title>
+    </head>
 
-<!-- Title Banner -->
-<body>
-    <header>
-        <div class="banner">
-            <img src="assets/img/Batman Beyond.png" alt="">
-        </div>
-    </header>
+    <!-- Title Banner -->
+    <body>
+        <header>
+            <div class="banner">
+                <img src="./assets/img/batmanBeyond.png" alt="">
+            </div>
+        </header>
 
-<!-- Game Description-->
-    <main>
-        <div>
-            <p>Terry McGuinness must choose between Batman's old nemesis the Joker or answer death defying riddles.</p>
-        </div>
-
-<!-- Joker and Riddler buttons-->
-        <div class="villains anim-pulse">
-            <div id="joker">
-                <h2>Joker Returns?</h2>
-                <button onclick="window.location.href='./assets/pages/jokerpage.html'">
-                    <img src="assets/img/Joker New.png" alt="">
-                </button>
+    <!-- Game Description-->
+        <main>
+            <div>
+                <p>Terry McGuinness must choose between Batman's old nemesis the Joker or answer death defying riddles.</p>
             </div>
 
-            <div id="choose">
-                <h3>OR</h3>
-            </div>
-    
-            <div id="riddler">
-                <h2>Get a Riddle?</h2>
-                <button>
-                    <img src="assets/img/Riddler.png" alt="">
-                </button>
-            </div>
-        </div>
+    <!-- Joker and Riddler buttons-->
+            <div class="villains">
+                <div id="joker">
+                    <h2>Joker Returns?</h2>
+                    <button onclick="jokerPage()" formtarget="_blank">
+                        <img src="./assets/img/jokerNew.png" alt="">
+                    </button>
+                </div>
 
-<!-- Footer Image -->
-        <div id="batman">
-            <img src="assets/img/Batman Footer.png" alt="">
-        </div>
-    </main>
-</body>
+                <div id="choose">
+                    <h3>OR</h3>
+                </div>
+        
+                <div id="riddler">
+                    <h2>Get a Riddle?</h2>
+                    <button>
+                        <img src="./assets/img/riddler.png" alt="">
+                    </button>
+                </div>
+            </div>
+
+    <!-- Footer Image -->
+            <div id="batman">
+                <img src="./assets/img/batmanFooter.png" alt="">
+            </div>
+        </main>
+        <script src="./assets/js/index.js"></script>
+    </body>
 </html>
